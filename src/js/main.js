@@ -10,7 +10,7 @@ const showNav = () => {
 	buttonSwitch()
 	allNavItems.forEach(item => {
 		item.addEventListener('click', () => {
-			hamburgerIcom.classList.toggle('displayingn')
+			hamburgerIcon.classList.toggle('displayingn')
 			
 			navMobile.classList.remove('active')
 		})
