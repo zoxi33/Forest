@@ -10,14 +10,14 @@ const showNav = () => {
 	buttonSwitch()
 	allNavItems.forEach(item => {
 		item.addEventListener('click', () => {
-			hamburger.classList.toggle('displayingn')
+			hamburgerIcom.classList.toggle('displayingn')
 			
 			navMobile.classList.remove('active')
 		})
 	})
 }
 const buttonSwitch = () => {
-	hamburger.classList.toggle('displayingn')
+	hamburgerIcon.classList.toggle('displayingn')
 	
 }
 const hanldeCurrentYear = () => {
