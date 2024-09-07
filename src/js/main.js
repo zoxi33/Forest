@@ -24,3 +24,17 @@ hamburger.addEventListener('click', showNav)
 closeButton.addEventListener('click', () => {
 	navMobile.classList.remove('active')
 })
+console.log(scrollY);
+document.addEventListener('DOMContentLoaded', function () {
+	const nav = document.querySelector('.navbar')
+	
+	function addBackground(){
+		if(window.scrollY >=83){
+			nav.classList.add('new-background')
+		}else{
+			nav.classList.remove('new-background')
+			
+		}
+	}
+	window.addEventListener('scroll', addBackground)
+})

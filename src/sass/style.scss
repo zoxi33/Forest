@@ -20,6 +20,7 @@ body {
 	width: 100%;
 }
 .navbar {
+	position: sticky;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -120,6 +121,13 @@ body {
 		transform: translatex(0);
 		background: linear-gradient(90deg, rgba(18, 98, 10, 1) 0%, rgba(0, 226, 110, 1) 100%);
 	}
+}
+.new-background{
+	position: sticky;
+	top: 0;
+	z-index: 10;
+	background-color: rgba($color: #dff1d4da, $alpha: .7);
+
 }
 ////////////////////////////////////////////HEADER///////////////////////////////////////////
 .header {
