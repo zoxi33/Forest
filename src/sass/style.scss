@@ -126,6 +126,7 @@ body {
 	position: sticky;
 	top: 0;
 	z-index: 10;
+	transition: background-color .8s;
 	background-color: rgba($color: #dff1d4da, $alpha: .7);
 
 }
