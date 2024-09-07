@@ -8,6 +8,7 @@
 html {
 	font-size: 62.5%;
 	scroll-behavior: smooth;
+	scroll-padding-top: 80px;
 }
 
 body {
@@ -25,6 +26,7 @@ body {
 	align-items: center;
 	justify-content: center;
 	width: 100%;
+	transition: background-color .8s;
 	.hamburger-icon {
 		padding: 2em;
 		margin-left: auto;
@@ -127,7 +129,7 @@ body {
 	position: sticky;
 	top: 0;
 	z-index: 10;
-	transition: background-color .8s;
+	
 	background-color: rgba($color: #dff1d4da, $alpha: .9);
 
 }
