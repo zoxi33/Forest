@@ -361,15 +361,19 @@ body {
 		text-transform: uppercase;
 		padding: 0.7em 0;
 	}
-	input {
-		border: none;
-		border: 1px solid #45c786;
-		border-radius: 5px;
-		height: 25px;
-		max-width: 100%;
-		min-width: 100%;
-		width: 300px;
-		padding-left: 0.5em;
+	.contact-form-top{
+
+		input {
+			border: none;
+			border: 1px solid #45c786;
+			
+			border-radius: 5px;
+			height: 25px;
+			max-width: 100%;
+			min-width: 100%;
+			width: 300px;
+			padding-left: 0.5em;
+		}
 	}
 	.contact-form,
 	.contact-form-top {
