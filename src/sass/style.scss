@@ -123,14 +123,17 @@ body {
 		transform: translatex(0);
 		background: linear-gradient(90deg, rgba(18, 98, 10, 1) 0%, rgba(0, 226, 110, 1) 100%);
 	}
-	
+	.non-active{
+		transform: translatex(100%);
+		background: linear-gradient(90deg, rgba(18, 98, 10, 1) 0%, rgba(0, 226, 110, 1) 100%);
+	}
 }
 .new-background{
 	position: sticky;
 	top: 0;
 	z-index: 10;
 	
-	background-color: rgba($color: #dff1d4da, $alpha: .9);
+	background-color: rgba($color: #86cc5bda, $alpha: .95);
 
 }
 ////////////////////////////////////////////HEADER///////////////////////////////////////////
@@ -360,7 +363,7 @@ body {
 	}
 	input {
 		border: none;
-		border: 1px solid #baffdc;
+		border: 1px solid #45c786;
 		border-radius: 5px;
 		height: 25px;
 		max-width: 100%;
@@ -381,7 +384,7 @@ body {
 			width: 100%;
 			min-height: 150px;
 			border: none;
-			border: 1px solid #baffdc;
+			border: 1px solid #45c786;
 			padding-left: 0.5em;
 		}
 	}

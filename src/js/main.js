@@ -6,9 +6,11 @@ const allNavItems = document.querySelectorAll('.nav_link')
 const currentyear = document.querySelector('.currentyear')
 const showNav = () => {
 	navMobile.classList.toggle('active')
+	navMobile.classList.remove('non-active')
 	allNavItems.forEach(item => {
 		item.addEventListener('click', () => {
 			navMobile.classList.remove('active')
+			navMobile.classList.add('non-active')
 		})
 	})
 }
@@ -33,4 +35,5 @@ document.addEventListener('DOMContentLoaded', function () {
 hamburger.addEventListener('click', showNav)
 closeButton.addEventListener('click', () => {
 	navMobile.classList.remove('active')
+	navMobile.classList.add('non-active')
 })
